@@ -1,0 +1,1 @@
+YUI.add("leaflet-for-yui",function(a){var b={};a.Get.css("http://cdn.leafletjs.com/leaflet-0.4/leaflet.css",function(c){c?a.log(c,"error","leaflet-for-yui"):a.Get.js(["http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"],function(c){return c?(a.Array.each(c,function(b){a.log(b,"error","leaflet-for-yui")}),void 0):(a.Leaflet=b,void 0)})})},"0.0.1",{requires:["get"]})
